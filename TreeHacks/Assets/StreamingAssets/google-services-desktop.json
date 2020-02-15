@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "603828338952",
+    "firebase_url": "https://treehacks-c2aec.firebaseio.com",
+    "project_id": "treehacks-c2aec",
+    "storage_bucket": "treehacks-c2aec.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:603828338952:android:e16a831d44962363b96cbd",
+        "android_client_info": {
+          "package_name": "com.TeamCoryca.TreeHacks"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "603828338952-tqdqd96e8g28ke83t8hcm85tadg5o11k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAF75Y10WeUVgC5gZToAr_EBa7Ivv44l-Q"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "603828338952-tqdqd96e8g28ke83t8hcm85tadg5o11k.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "603828338952-3olsjn589bu6ij0alehon3g476qur6sq.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.TeamCoryca.TreeHacks"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
