@@ -14,12 +14,14 @@ public static class ServerManager
     public delegate void GetAllCallback(Dictionary<string, Message> messages);
 
     public static void GetMessage(string path, GetCallback callback) {
+        Debug.Log("GetMessage() is being called");
         RestClient.Get<Message>($"{url}messages/{path}.json").Then(message => {
             callback(message);
         });
     }
 
     public static void PostMessage(Message m, string path, PostCallback callback) {
+        Debug.Log("PostMessage() is being called");
         RestClient.Put<Message>($"{url}messages/{path}.json", m).Then(response => {
             callback();
         });
