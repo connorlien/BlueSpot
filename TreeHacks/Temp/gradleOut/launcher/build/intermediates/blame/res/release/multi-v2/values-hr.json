@@ -1,0 +1,26 @@
+{
+    "logs": [
+        {
+            "outputFile": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\incremental\\mergeReleaseResources\\merged.dir\\values-hr\\values-hr.xml",
+            "map": [
+                {
+                    "source": "C:\\Users\\ryann\\.gradle\\caches\\transforms-2\\files-2.1\\03a2240899a0c9697e4c3477c36c0ec4\\res\\values-hr\\values.xml",
+                    "from": {
+                        "startLines": "4,5,6,7,8",
+                        "startColumns": "0,0,0,0,0",
+                        "startOffsets": "190,239,289,403,519",
+                        "endColumns": "48,49,113,115,83",
+                        "endOffsets": "238,288,402,518,602"
+                    },
+                    "to": {
+                        "startLines": "2,3,4,5,6",
+                        "startColumns": "4,4,4,4,4",
+                        "startOffsets": "55,108,162,280,400",
+                        "endColumns": "52,53,117,119,87",
+                        "endOffsets": "103,157,275,395,483"
+                    }
+                }
+            ]
+        }
+    ]
+}
