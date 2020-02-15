@@ -4,12 +4,20 @@
         "source": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-mdpi\\app_icon.png"
     },
     {
+        "merged": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\layout___arcore_education.xml.flat",
+        "source": "C:\\Users\\ryann\\.gradle\\caches\\transforms-2\\files-2.1\\03a2240899a0c9697e4c3477c36c0ec4\\res\\layout\\__arcore_education.xml"
+    },
+    {
         "merged": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher_foreground.png.flat",
         "source": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-mdpi\\ic_launcher_foreground.png"
     },
     {
         "merged": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon_round.xml.flat",
         "source": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\src\\main\\res\\mipmap-anydpi-v26\\app_icon_round.xml"
+    },
+    {
+        "merged": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\raw_keep_arcore.xml.flat",
+        "source": "C:\\Users\\ryann\\.gradle\\caches\\transforms-2\\files-2.1\\03a2240899a0c9697e4c3477c36c0ec4\\res\\raw\\keep_arcore.xml"
     },
     {
         "merged": "D:\\GitHub\\TreeHacks\\TreeHacks\\Temp\\gradleOut\\launcher\\build\\intermediates\\res\\merged\\release\\mipmap-anydpi-v26_app_icon.xml.flat",
