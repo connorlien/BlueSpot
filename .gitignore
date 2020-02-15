@@ -63,3 +63,6 @@ sysinfo.txt
 crashlytics-build.properties
 
 TreeHacks/Temp/UnityLockfile
+TreeHacks/Library/ArtifactDB
+TreeHacks/Library/shadercompiler-UnityShaderCompiler.exe0.log
+TreeHacks/Library/SourceAssetDB
