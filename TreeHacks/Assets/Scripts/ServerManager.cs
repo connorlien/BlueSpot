@@ -1,7 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using UnityEngine;
-using FullSerializer;
+/* using FullSerializer;
 using Proyecto26;
 
 public static class ServerManager
@@ -37,6 +37,56 @@ public static class ServerManager
             callback(messages);
         });
     }
+} */
+
+using Firebase;
+using Firebase.Database;
+using Firebase.Unity.Editor;
+
+public class ServerManager : MonoBehaviour
+{
+    private static readonly string url = "https://treehacks-c2aec.firebaseio.com/";
+
+    void Start() {
+        FirebaseApp.DefaultInstance.SetEditorDatabaseUrl(url);
+    }
+
+    public static void GetMessage(string path) {
+        Debug.Log("GetMessage() is being called");
+        FirebaseDatabase.DefaultInstance
+        .GetReference("Messages")
+        .GetValueAsync().ContinueWith(task => {
+            if (task.IsFaulted) {
+                Debug.Log("An error occurred while retrieving the message.");
+            }
+            else if (task.IsCompleted) {
+                DataSnapshot snapshot = task.Result;
+                foreach(var child in snapshot.Children) {
+                    foreach(var i in child.Children) {
+                        Debug.Log(i.Value);
+                    }
+                }
+            }
+        });
+    }
+
+    public static void PostMessage(Message m, string path) {
+        Debug.Log("PostMessage() is being called");
+        DatabaseReference reference = FirebaseDatabase.DefaultInstance.RootReference;
+        string json = JsonUtility.ToJson(user);
+        reference.Child("messages").Child(path).SetRawJsonValueAsync(json);
+    }
+
+    // public static void GetAllMessages() {
+    //     RestClient.Get($"{url}messages.json").Then(response => {
+    //         var responseJson = response.Text;
+    //         var data = fsJsonParser.Parse(responseJson);
+    //         object deserialized = null;
+    //         serializer.TryDeserialize(data, typeof(Dictionary<string, Message>), ref deserialized);
+    //         var messages = deserialized as Dictionary<string, Message>;
+    //         callback(messages);
+    //     });
+    // }
 }
 
 [Serializable]
