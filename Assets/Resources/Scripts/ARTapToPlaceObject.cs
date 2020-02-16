@@ -71,7 +71,7 @@ public class ARTapToPlaceObject : MonoBehaviour {
 
     private void PlaceObject() {
         MessageDot messageDot = Instantiate(objectToPlace, placementPose.position, placementPose.rotation);
-        messageToPlace.location = DirectionSense.currPlayerPos + DirectionSense.unityToReal(placementPose.position);
+        messageToPlace.location = DirectionSense.unityToReal(placementPose.position);
         messageDot.setMessage(messageToPlace);
         App.Post(messageToPlace);
     }
